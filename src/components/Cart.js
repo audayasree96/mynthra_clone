@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 export default function Cart() {
 
   const params = useParams();
-  const product = params;
+
   console.log(params)
 
   return (
